@@ -186,3 +186,8 @@ a:hover{
         margin: 4%;
     }
 }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -102,7 +102,6 @@ a{
 a:hover{
     color:#474747;
 }
-
 .images{
     height: 50vh;
     width: 95vw;
@@ -111,17 +110,14 @@ a:hover{
     align-items: center;
     justify-content: center;
 }
-
 .images:nth-child(3){
     justify-content: space-between;
 }
-
 @media (max-width: 700px) {
     .hamburger{
         display: block;
         right: -43vw;
     }
-    
     .menu {
         display: flex;
         flex-direction: column;
@@ -138,13 +134,11 @@ a:hover{
         visibility: hidden;
         z-index: 1;
     }
-    
     .hamburger-checkbox:checked ~ .menu{
         /* right: -45px; */
         visibility: visible;
     }
 }
-
 @media (max-width: 450px) {
     .menu{
         /* right: 508px; */
@@ -165,10 +159,12 @@ a:hover{
 @media(max-width :750px){
     .midimages{
         flex-direction: column
-
     }
-
 }
-
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 

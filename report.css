@@ -158,3 +158,25 @@ a:hover{
         visibility: visible;
     }
 }
+.midimages{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgs{
+    margin: 1rem;
+}
+@media(max-width:600px){
+    .imgs img{
+        height: 100px;
+        width: auto;
+    }
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
