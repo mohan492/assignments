@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, user-scalable=device-width">
         <title>Portfolio</title>
-        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="experiencestyle.css">
     
 
@@ -14,18 +13,25 @@
         <header>
             <nav class="header">
                 <div class="logo">
-                    <img class="profile" src="logo.JPG" alt="Pp" >
-                    <h3>M.Joshi</h3>
+                    <img class="profile" src="logo.png" alt="Pp" >
                 </div>
-                <div class="items"><a href="index.html">Home</a></div>
-                <div class="items"><a href="portfolio.html">Portfolio</a></div>
-                <div class="items"><a href="experience.html"style="text-decoration: underline 2px solid black;">Experience</a></div>
-                <div class="items"><a href="report.html">Report</a></div>
-                <div class="items" style="margin-right: 0.2rem;"><a href="contact.html">Contact</a></div>
+                <input type="checkbox" id="hamburger-checkbox" class="hamburger-checkbox">
+                <label for="hamburger-checkbox" class="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </label>
+                <div class="menu">
+                    <div class="items"><a href="index.html">Home</a></div>
+                    <div class="items"><a href="portfolio.html">Portfolio</a></div>
+                    <div class="items"><a href="experience.html" style="text-decoration: underline 2px solid black;">Experience</a></div>
+                    <div class="items"><a href="report.html" >Report</a></div>
+                    <div class="items" style="margin-right: 0.5rem;"><a href="contact.html">Contact</a></div>
+                </div>
                 
             </nav>
         </header>
-        <section class="main-box">
+        <div class="main-box">
             <h2>Some of my major Experiences.</h2>
             <div class="row">
                 <div class="col">
@@ -75,7 +81,7 @@
                     </p>
                 </div>
             </div>
-        </section>
+        </div>
         <footer></footer>
     </body> 
     </html>
